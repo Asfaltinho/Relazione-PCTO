@@ -3,95 +3,373 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relazione PCTO - Riccardo Dal Zotto @ Angelantoni Industrie S.r.l.</title>
+    <title>Relazione PCTO – Riccardo Dal Zotto @ Angelantoni Industrie S.r.l.</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- ── LIGHTBOX ─────────────────────────────────── -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <!-- ── NAV ──────────────────────────────────────── -->
     <nav>
         <h1>Relazione PCTO</h1>
-        <a href = "#presentazione">🆔 Presentazione</a>
-        <a href = "#azienda">🏭 L'azienda</a>
-        <a href = "#att">🧑‍💻 Attività</a>
-        <a href = "#skills">🛠️ Skills</a>
-        <a href = "#conclusione">👋 Conclusione</a>
+        <p class="nav-sub">Riccardo Dal Zotto<br>A.S. 2024/2025 – 2025/2026</p>
+
+        <a href="#presentazione">🆔 Presentazione</a>
+        <a href="#azienda">🏭 L'azienda</a>
+        <a href="#periodi">📅 I periodi</a>
+        <div class="nav-divider"></div>
+        <a href="#ufficio-it">🖥️ Ufficio IT</a>
+        <a href="#ufficio-sw">💻 Ufficio Software</a>
+        <div class="nav-divider"></div>
+        <a href="#skills">🛠️ Competenze</a>
+
+        <div class="nav-footer">ITT Allievi Sangallo · Terni</div>
     </nav>
 
-    <div class = "principale">
-        <div class = "introduzione">
-            <h1>Relazione PCTO - Riccardo Dal Zotto</h1>
-            <p>Pagina di relazione PCTO svolto nell'ufficio IT di Angelantoni Industrie Srl</p>
+    <!-- ── MAIN ──────────────────────────────────────── -->
+    <div class="principale">
+
+        <!-- HERO -->
+        <div class="introduzione">
+            <h1>Relazione PCTO – Riccardo Dal Zotto</h1>
+            <p class="hero-sub">Percorso per le Competenze Trasversali e l'Orientamento presso Angelantoni Industrie S.r.l.</p>
+            <div class="hero-tags">
+                <span class="hero-tag">📅 3 periodi · 2025</span>
+                <span class="hero-tag">🏭 Massa Martana (PG)</span>
+                <span class="hero-tag">🖥️ Ufficio IT</span>
+                <span class="hero-tag">💻 Ufficio Software</span>
+                <span class="hero-tag">🏫 ITT Allievi Sangallo · Terni</span>
+            </div>
         </div>
 
-        <section id = "presentazione" class = "sectionimg">
-            <div class = "divimg">
-                <h2>1. 🆔 Presentazione di me stesso</h2>
-                <p>Sono Riccardo Dal Zotto, ho 17 anni e attualmente frequento il quarto anno di Informatica e Telecomunicazioni presso l'ITT Allievi Sangallo di Terni. Sono appassionato di tecnologia fin da piccolo e mi piace mettermi alla prova negli ambiti della programmazione, delle reti informatiche e dell'hardware.</p>
+        <!-- 1. PRESENTAZIONE -->
+        <section id="presentazione" class="sectionimg">
+            <div class="divimg">
+                <h2>1. 🆔 Presentazione</h2>
+                <p>
+                    Sono Riccardo Dal Zotto, ho 18 anni e ho frequentato il quinto anno del corso di Informatica e Telecomunicazioni
+                    presso l'ITT Allievi Sangallo di Terni. Sono appassionato di tecnologia fin da piccolo: mi interessano
+                    la programmazione, le reti informatiche e l'hardware, e il PCTO è stata l'occasione concreta per confrontarmi
+                    con un ambiente IT professionale reale.
+                </p>
                 <a href="curriculum.pdf" target="_blank"><button>Scarica il CV</button></a>
             </div>
-            <img src = "scuola.png" alt = "Logo ITT Terni">                       
+            <img class="logo" src="scuola.png" alt="Logo ITT Allievi Sangallo Terni">
         </section>
 
-        <section id = "azienda" class = "sectionimg">
-            <div class = "divimg">
-                <h2>2. 🏭 Presentazione dell'azienda</h2>
-                <p><a href = "https://www.angelantoni.com/">Angelantoni Industrie Srl</a> ha sede a Massa Martana ed è un’azienda attiva nei settori della refrigerazione scientifica, ambientale e industriale. Nata nel 1932, è cresciuta fino a diventare un punto di riferimento internazionale nella progettazione di soluzioni ad alta tecnologia per la simulazione ambientale, la criogenia e i rivestimenti sottili. Grazie a una forte attenzione all’innovazione e alla sostenibilità, il gruppo opera oggi in tutto il mondo, mantenendo solide radici nel territorio umbro.</p>
-                <p>Il mio PCTO si è svolto all'interno dell'ufficio IT di Angelantoni Industrie, dove vengono gestite tutte le cose riguardanti l'informatica.</p>
+        <!-- 2. AZIENDA -->
+        <section id="azienda" class="sectionimg">
+            <div class="divimg">
+                <h2>2. 🏭 L'azienda: Angelantoni Industrie S.r.l.</h2>
+                <p>
+                    <a href="https://www.angelantoni.com/" target="_blank">Angelantoni Industrie S.r.l.</a> ha sede a
+                    Massa Martana (PG) ed è attiva nei settori della refrigerazione scientifica, ambientale e industriale.
+                    Fondata nel 1932, è cresciuta fino a diventare un riferimento internazionale nella simulazione ambientale,
+                    nella criogenia e nei rivestimenti sottili, mantenendo radici solide nel territorio umbro.
+                </p>
+                <p>
+                    Il percorso PCTO si è svolto all'interno di due uffici: l'<strong>Ufficio IT</strong>, che gestisce
+                    l'intera infrastruttura informatica dell'azienda, e l'<strong>Ufficio Software</strong>, che si occupa
+                    dello sviluppo di applicativi interni e della configurazione di sistemi embedded nelle camere ambientali.
+                </p>
             </div>
-            <img src = "azienda.png" alt = "Logo Angelantoni Industrie Srl">
+            <img class="logo" src="azienda.png" alt="Logo Angelantoni Industrie Srl">
         </section>
 
-        <section id = "att">
-            <h2>3. 🧑‍💻 Attività svolte in azienda</h2>
-            <ul>
-                <li>Configurazione dei PC (OS, Office, altri software).</li>
-                <li>Inserimento nel dominio aziendale.</li>
-                <li>Supporto helpdesk (problemi HW/SW, sostituzione toner, consegne IT, installazione driver (es: convertitori USB → seriale).</li>
-                <li>Uso di Microsoft Dynamics AX e creazione utenti.</li>
-                <li>Gestione badge e accessi con Dormakaba.</li>
-                <li>Trasferimento dati tra PC → PC e PC → Rete o viceversa</li>
-                <li>Osservazione dell'uso di Microsoft Exchange</li>
-                <li>Uso base di Active Directory.</li>
-                <li>Visita al datacenter e ai Server, spiegazione su come vengono gestiti (VM, Interfacce web)</li>
-                <li>Rifornimento con Amazon for Business.</li>
-                <li>Creazione utenze ed assegnazione licenze per nuovi dipendenti.</li>
-                <li>Osservazione della gestione del firewall Fortigate.</li>
-                <li>Spiegazione dei database, SQL, PowerBI e programmi interni in C#.</li>
-                <li>Osservazione interfacce Telefoni VoIP Cisco e Gigaset</li>
-            </ul>
-            <p>Affiancato da Gabriele e Giacomo, con la supervisione del tutor aziendale Mirko (Capo IT) ed i colleghi Renzo e Simone.</p>
-        </section>
-
-        <section id = "skills">
-            <h2>4. 🛠️ Competenze acquisite e/o migliorate</h2>
-            <ul>
-              <li>📈 Configurazione PC in ambiente aziendale e messa in dominio.</li>
-              <li>🆕 Basi di Microsoft Exchange, AX e Active Directory.</li>
-              <li>🆕 Gestione badge con Dormakaba.</li>
-              <li>🆕 Conoscenze di SQL, PowerBI e C#.</li>
-              <li>📈 Nozioni su infrastrutture server e firewall Fortinet.</li>
-              <li>📈 Maggiore sicurezza nel troubleshooting e nell'intervento pratico.</li>
-              <li>📈 Sostituzione componenti hardware (toner, batterie, NVMe).</li>
-            </ul>
-            <p><strong>Soft Skills:</strong> 🕒 Puntualità, ↔️ adattabilità, 🫂 collaborazione e 🗣️ comunicazione con i colleghi.</p>
-        </section>
-
-        <section id = "conclusione">
-            <h2>👋 Conclusione</h2>
-            <p>Il percorso del mio PCTO presso Angelantoni Industrie è stato molto stimolante e utile per lo sviluppo delle mie competenze in ambito pratico e lavorativo.
-                Ho avuto la grande opportunità di lavorare in un'ambiente professionale e complesso, degno di un'azienda di grandi dimensioni, che mi ha permesso di apprendre molto sulle pratiche nel settore IT e non solo.
-            </p>
+        <!-- 3. PERIODI -->
+        <section id="periodi">
+            <h2>3. 📅 I periodi svolti</h2>
+            <p>Il PCTO si è articolato in tre periodi distinti, tutti presso la stessa azienda:</p>
+            <div class="periodi-timeline">
+                <div class="periodo-row">
+                    <div class="periodo-dot"></div>
+                    <strong>Periodo 1</strong>
+                    <span>13 gennaio – 24 gennaio 2025 &nbsp;·&nbsp; Ufficio IT</span>
+                </div>
+                <div class="periodo-row">
+                    <div class="periodo-dot"></div>
+                    <strong>Periodo 2</strong>
+                    <span>3 giugno – 20 giugno 2025 &nbsp;·&nbsp; Ufficio IT + una settimana Ufficio Software</span>
+                </div>
+                <div class="periodo-row">
+                    <div class="periodo-dot"></div>
+                    <strong>Periodo 3</strong>
+                    <span>15 settembre – 27 settembre 2025 &nbsp;·&nbsp; Ufficio IT</span>
+                </div>
+            </div>
             <p>
-                Ringrazio tutti i miei colleghi - Mirko, Gabriele, Giacomo, Renzo e Simone - per avermi fatto trovare un ambiente accogliente e stimolante, e per avermi trasmesso le loro grandi conoscenze. Ringrazio inoltre Angelantoni Industrie e il Capo delle HR, Francesca Orsini, per avermi accolto e introdotto in azienda, ma soprattutto per avermi dato questa opportunità, insieme al tutor PCTO Federico Cini.
+                Il tutor aziendale è stato <strong>Mirko</strong> (Responsabile IT), con il supporto dei colleghi
+                <strong>Gabriele</strong>, <strong>Giacomo</strong>, <strong>Renzo</strong> e <strong>Simone</strong>.
+                I tutor scolastici sono <strong>Federico Cini</strong> nei primi due periodi e <strong>Teresa Ricci</strong> nel terzo.
             </p>
+        </section>
+
+        <!-- 4. UFFICIO IT -->
+        <section id="ufficio-it">
+            <h2>4. 🖥️ Attività – Ufficio IT</h2>
+            <div class="ufficio-badge badge-it">🖥️ Ufficio IT · Tutti e tre i periodi</div>
+            <p>
+                L'Ufficio IT di Angelantoni è il punto di riferimento per l'intera infrastruttura informatica del gruppo:
+                dalla gestione delle postazioni e dei server alla sicurezza della rete, dal provisioning dei nuovi
+                dipendenti al supporto quotidiano agli utenti. Ho operato in affiancamento ai colleghi, con progressiva
+                autonomia nel corso dei tre periodi.
+            </p>
+
+            <div class="activity-block it">
+                <h3>Configurazione postazioni e messa a dominio</h3>
+                <p>
+                    Ho partecipato all'installazione e configurazione di PC aziendali: installazione del sistema operativo,
+                    setup di Office e dei software specifici, inserimento nel dominio Windows e assegnazione delle policy
+                    di gruppo. Nel secondo periodo ho eseguito autonomamente la configurazione completa di una postazione
+                    per un nuovo dipendente, incluso il montaggio fisico. Questo mi ha permesso di padroneggiare il
+                    processo dall'inizio alla fine, che in azienda deve essere eseguito in modo rapido e standardizzato.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Supporto helpdesk e troubleshooting</h3>
+                <p>
+                    Ho affiancato i colleghi negli interventi di helpdesk in loco: risoluzione di problemi hardware e
+                    software, sostituzione toner, installazione driver (tra cui convertitori USB→Seriale per comunicare
+                    con le camere atmosferiche), sostituzione di componenti su pc portatili. Nel secondo
+                    periodo ho osservato la risoluzione di un conflitto IP su una pistola Datalogic tramite le DHCP
+                    Reservations, e il troubleshooting di un telefono Gigaset non connesso. Nel terzo periodo ho
+                    partecipato allo smistamento e alla preparazione di monitor dismessi.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Microsoft Dynamics AX e gestione utenti</h3>
+                <p>
+                    Ho imparato a utilizzare il gestionale aziendale AX per creare nuove utenze, assegnare licenze ai
+                    dipendenti e associare materiale IT agli utenti. Nel terzo periodo ho usato AX anche nella procedura
+                    di smaltimento dei PC di Angelantoni Life Science: disassegnazione del materiale, archiviazione dei
+                    dati degli utenti ancora attivi, rimozione dal dominio e da Active Directory, e rimozione dal
+                    sistema di aggiornamento centralizzato CCM.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Active Directory e gestione identità</h3>
+                <p>
+                    Ho acquisito le basi dell'uso di Active Directory: creazione e gestione degli account utente,
+                    rimozione di macchine dal dominio, gestione delle licenze Office 365. Queste operazioni fanno
+                    parte del flusso standard di onboarding e offboarding dei dipendenti e vanno eseguite in maniera standardizzata.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Dormakaba – Gestione badge e accessi</h3>
+                <p>
+                    Ho imparato a utilizzare il software Dormakaba per la gestione del controllo accessi: creazione
+                    e configurazione di badge per i dipendenti, assegnazione dei permessi di accesso alle aree aziendali.
+                    Un'attività trasversale presente in tutti e tre i periodi, ogni volta che venivano inseriti
+                    nuovi dipendenti o modificati i profili di accesso.
+                </p>
+            </div>
+
+            <!-- SCREENSHOT DORMAKABA + AX -->
+            <div class="screenshot-grid">
+                <figure class="screenshot-item">
+                    <img src="dormakaba.png" alt="Screenshot software Dormakaba" onclick="openLightbox(this)">
+                    <figcaption>Interfaccia Dormakaba – gestione badge e accessi</figcaption>
+                </figure>
+                <figure class="screenshot-item">
+                    <img src="ax.png" alt="Screenshot Microsoft Dynamics AX" onclick="openLightbox(this)">
+                    <figcaption>Microsoft Dynamics AX – gestionale aziendale</figcaption>
+                </figure>
+            </div>
+
+            <div class="activity-block it" style="margin-top: 20px;">
+                <h3>Infrastruttura server e datacenter</h3>
+                <p>
+                    Ho visitato il datacenter interno e osservato come vengono gestiti i server: virtualizzazione con
+                    VMware vSphere, interfacce web di amministrazione, cambio di un HDD in hot swap. Nel terzo periodo
+                    ho visitato anche il "mini" server del Disaster Recovery interno, comprendendo l'importanza della
+                    ridondanza in un'azienda di queste dimensioni.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Firewall Fortigate</h3>
+                <p>
+                    Ho osservato la gestione del firewall Fortigate: configurazione delle regole di sicurezza,
+                    monitoraggio del traffico di rete e gestione degli accessi. Il firewall è uno degli strumenti
+                    centrali per la protezione dell'intera infrastruttura aziendale.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Microsoft Exchange – Posta aziendale</h3>
+                <p>
+                    Ho seguito il funzionamento del server di posta Microsoft Exchange, osservando come vengono
+                    gestite le caselle di posta dei dipendenti, le distribuzioni e le policy di utilizzo della
+                    posta elettronica aziendale.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Telefoni VoIP – Cisco e Gigaset</h3>
+                <p>
+                    Ho preso familiarità con le interfacce dei telefoni VoIP Cisco e Gigaset in uso in azienda.
+                    Nel terzo periodo ho seguito la configurazione di nuove utenze sui telefoni Cisco per i
+                    nuovi dipendenti, come parte del processo di onboarding.
+                </p>
+            </div>
+
+            <div class="activity-block it">
+                <h3>Web app di gestione magazzino</h3>
+                <p>
+                    Nel terzo periodo il collega Renzo mi ha illustrato nel dettaglio la web app interna per la
+                    gestione del materiale in ingresso e del magazzino IT: dall'interfaccia utente al funzionamento
+                    pratico all'interno del magazzino. Ho potuto seguire l'intero flusso, dalla registrazione del
+                    materiale in entrata alla sua collocazione e tracciabilità.
+                </p>
+            </div>
+
+            <!-- SCREENSHOT WEB APP -->
+            <div class="screenshot-grid">
+                <figure class="screenshot-item">
+                    <img src="webapp_2_dashboard.png" alt="Screenshot web app magazzino" onclick="openLightbox(this)">
+                    <figcaption>Web app interna – gestione materiale e magazzino IT</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- 5. UFFICIO SOFTWARE -->
+        <section id="ufficio-sw">
+            <h2>5. 💻 Attività – Ufficio Software</h2>
+            <div class="ufficio-badge badge-sw">💻 Ufficio Software · Periodo 2 (una settimana)</div>
+            <p>
+                Durante il secondo periodo ho trascorso una settimana nell'Ufficio Software, che si occupa dello
+                sviluppo di applicativi interni e della configurazione di sistemi embedded per i pannelli di
+                controllo delle camere atmosferiche prodotte dall'azienda.
+            </p>
+
+            <div class="activity-block sw">
+                <h3>Configurazione schede elettroniche Linaro</h3>
+                <p>
+                    Ho imparato a configurare schede elettroniche basate su piattaforma Linaro, che fungono da
+                    unità di controllo per i pannelli ESA delle camere atmosferiche. La procedura prevede il
+                    trasferimento di un pacchetto firmware via SFTP e l'esecuzione di una sequenza di comandi
+                    per l'installazione e il riavvio del sistema.
+                </p>
+            </div>
+
+            <div class="activity-block sw">
+                <h3>Script di automazione in Python</h3>
+                <p>
+                    Ho sviluppato autonomamente uno script Python che automatizza l'intero processo di configurazione
+                    delle schede, sfruttando anche la configurazione di un server DHCP locale per assegnare automaticamente
+                    un indirizzo IP alla board nel momento del collegamento: ricerca automatica dell'IP del dispositivo nella rete
+                    locale, connessione SFTP, trasferimento del firmware ed esecuzione guidata dei comandi di installazione.
+                    Lo script ha ridotto significativamente il tempo necessario per configurare ogni scheda,
+                    eliminando passaggi manuali ripetitivi e possibili errori umani.
+                </p>
+            </div>
+        </section>
+
+        <!-- 6. COMPETENZE -->
+        <section id="skills">
+            <h2>6. 🛠️ Competenze acquisite</h2>
+            <p>Le attività svolte hanno permesso di sviluppare competenze sia nuove che già presenti, consolidandole
+            in un contesto professionale reale.</p>
+
+            <div class="skills-grid">
+
+                <div class="skill-card improved">
+                    <span class="skill-label improved">Migliorata</span>
+                    <div class="skill-icon">🖥️</div>
+                    <h4>Configurazione PC in ambito aziendale</h4>
+                    <p>Installazione OS, messa a dominio, policy di gruppo, setup software in ambienti Windows enterprise.</p>
+                </div>
+
+                <div class="skill-card new">
+                    <span class="skill-label new">Nuova</span>
+                    <div class="skill-icon">🗂️</div>
+                    <h4>Active Directory & Exchange</h4>
+                    <p>Gestione utenze, gruppi, rimozione macchine dal dominio, gestione licenze Office 365 e server di posta Exchange.</p>
+                </div>
+
+                <div class="skill-card new">
+                    <span class="skill-label new">Nuova</span>
+                    <div class="skill-icon">🗃️</div>
+                    <h4>Microsoft Dynamics AX</h4>
+                    <p>Gestione asset IT, associazione materiale ai dipendenti, onboarding e offboarding in un gestionale ERP aziendale.</p>
+                </div>
+
+                <div class="skill-card new">
+                    <span class="skill-label new">Nuova</span>
+                    <div class="skill-icon">🔑</div>
+                    <h4>Dormakaba – Controllo accessi</h4>
+                    <p>Creazione badge, gestione profili di accesso e permessi per aree aziendali.</p>
+                </div>
+
+                <div class="skill-card improved">
+                    <span class="skill-label improved">Migliorata</span>
+                    <div class="skill-icon">🔧</div>
+                    <h4>Troubleshooting HW/SW</h4>
+                    <p>Diagnosi e risoluzione problemi su postazioni fisiche, periferiche, driver, conflitti di rete e telefoni VoIP.</p>
+                </div>
+
+                <div class="skill-card improved">
+                    <span class="skill-label improved">Migliorata</span>
+                    <div class="skill-icon">🖧</div>
+                    <h4>Infrastrutture server e reti</h4>
+                    <p>Nozioni su virtualizzazione VMware, DHCP, firewall Fortigate, hot swap HDD, Disaster Recovery.</p>
+                </div>
+
+                <div class="skill-card improved">
+                    <span class="skill-label improved">Migliorata</span>
+                    <div class="skill-icon">🔂</div>
+                    <h4>Automazione con Python</h4>
+                    <p>Sviluppo di uno script per automatizzare la configurazione di schede embedded via SFTP, riducendo tempi e margine di errore.</p>
+                </div>
+
+                <div class="skill-card improved">
+                    <span class="skill-label improved">Migliorata</span>
+                    <div class="skill-icon">💻</div>
+                    <h4>Manutenzione hardware</h4>
+                    <p>Sostituzione SSD NVMe, batterie su portatili, toner, smontaggio e rimontaggio di notebook (es. Dell Latitude 7490). Confidenza migliorata nel mettere mano ai componenti interni.</p>
+                </div>
+
+            </div>
+
+            <h3 style="margin-top: 28px;">Competenze trasversali</h3>
+            <div class="softskills">
+                <span class="softskill-tag">🕒 Puntualità e gestione del tempo</span>
+                <span class="softskill-tag">↔️ Adattabilità a contesti diversi</span>
+                <span class="softskill-tag">🫂 Lavoro in team</span>
+                <span class="softskill-tag">🗣️ Comunicazione con i colleghi</span>
+                <span class="softskill-tag">🔍 Problem solving pratico</span>
+                <span class="softskill-tag">📋 Autonomia crescente nelle mansioni</span>
+            </div>
         </section>
 
         <footer>
-            © Riccardo Dal Zotto - Relazione PCTO - 2025
-            </br>
+            © Riccardo Dal Zotto – Relazione PCTO – 2026<br>
             ヾ(•ω•`)o
         </footer>
 
     </div>
+
+    <!-- ── SCRIPT LIGHTBOX ────────────────────────────── -->
+    <script>
+        function openLightbox(img) {
+            document.getElementById('lightbox-img').src = img.src;
+            document.getElementById('lightbox').classList.add('open');
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('open');
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
 
 </body>
 </html>
