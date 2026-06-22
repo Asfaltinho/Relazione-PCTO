@@ -467,6 +467,143 @@ a:hover {
     }
 }
 
+/* ── LARGE SCREEN / LIM ───────────────────────────────── */
+@media (min-width: 1600px) {
+
+    nav {
+        width: 300px;
+        padding: 32px 28px;
+    }
+
+    nav h1 {
+        font-size: 22px;
+    }
+
+    nav .nav-sub {
+        font-size: 13px;
+        margin-bottom: 36px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 11px 14px;
+        margin-bottom: 5px;
+    }
+
+    nav .nav-footer {
+        font-size: 13px;
+    }
+
+    .principale {
+        margin-left: 300px;
+        max-width: 1380px;
+        padding: 64px 72px;
+    }
+
+    .introduzione {
+        padding: 64px 48px;
+        margin-bottom: 56px;
+    }
+
+    .introduzione h1 {
+        font-size: 40px;
+    }
+
+    .introduzione .hero-sub {
+        font-size: 20px;
+    }
+
+    .hero-tag {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin-bottom: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 40px 48px;
+        border-radius: 18px;
+        margin-bottom: 40px;
+    }
+
+    .activity-block {
+        padding-left: 24px;
+        margin-bottom: 28px;
+    }
+
+    .activity-block h3 {
+        font-size: 16px;
+    }
+
+    .activity-block p {
+        font-size: 15px;
+    }
+
+    img.logo {
+        width: 200px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .skill-card {
+        padding: 20px 22px;
+    }
+
+    .skill-card h4 {
+        font-size: 15px;
+    }
+
+    .skill-card p {
+        font-size: 14px;
+    }
+
+    .skill-card .skill-icon {
+        font-size: 28px;
+    }
+
+    .periodo-row {
+        font-size: 15px;
+        padding: 15px 22px;
+    }
+
+    .softskill-tag {
+        font-size: 15px;
+        padding: 7px 18px;
+    }
+
+    .ufficio-badge {
+        font-size: 13px;
+        padding: 5px 16px;
+    }
+
+    .screenshot-item figcaption {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 0.7em 1.6em;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+}
+
 /*
 © Riccardo Dal Zotto - Relazione FSL - 2026
 */
