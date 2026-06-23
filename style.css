@@ -467,7 +467,7 @@ a:hover {
     }
 }
 
-/* ── LARGE SCREEN / LIM ───────────────────────────────── */
+/* ── LARGE SCREEN (1600px–3839px) ────────────────────── */
 @media (min-width: 1600px) {
 
     nav {
@@ -601,6 +601,234 @@ a:hover {
 
     footer {
         font-size: 15px;
+    }
+}
+
+/* ── 4K / LIM (3840px+) ──────────────────────────────── */
+@media (min-width: 3840px) {
+
+    nav {
+        width: 520px;
+        padding: 56px 48px;
+    }
+
+    nav h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    nav .nav-sub {
+        font-size: 22px;
+        margin-bottom: 56px;
+        line-height: 1.5;
+    }
+
+    nav a {
+        font-size: 26px;
+        padding: 18px 22px;
+        border-radius: 12px;
+        margin-bottom: 8px;
+        gap: 14px;
+    }
+
+    nav .nav-divider {
+        margin: 20px 0;
+    }
+
+    nav .nav-footer {
+        font-size: 20px;
+        padding-top: 32px;
+    }
+
+    .principale {
+        margin-left: 520px;
+        max-width: 2800px;
+        padding: 120px 140px;
+    }
+
+    .introduzione {
+        padding: 120px 96px;
+        margin-bottom: 96px;
+        border-radius: 28px;
+    }
+
+    .introduzione h1 {
+        font-size: 72px;
+        letter-spacing: -1px;
+        margin-bottom: 18px;
+    }
+
+    .introduzione .hero-sub {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+
+    .hero-tags {
+        gap: 16px;
+    }
+
+    .hero-tag {
+        font-size: 24px;
+        padding: 10px 32px;
+        border-radius: 36px;
+    }
+
+    h2 {
+        font-size: 48px;
+        margin-bottom: 36px;
+        letter-spacing: -0.5px;
+    }
+
+    h3 {
+        font-size: 32px;
+        margin: 40px 0 16px 0;
+    }
+
+    p, li {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+
+    section {
+        padding: 80px 96px;
+        border-radius: 28px;
+        margin-bottom: 72px;
+        box-shadow: 0 4px 28px rgba(0, 0, 0, 0.07);
+    }
+
+    .sectionimg {
+        gap: 72px;
+    }
+
+    .divimg {
+        min-width: 500px;
+    }
+
+    img.logo {
+        width: 360px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .ufficio-badge {
+        font-size: 22px;
+        padding: 10px 28px;
+        border-radius: 36px;
+        margin-bottom: 28px;
+        letter-spacing: 0.5px;
+    }
+
+    .activity-block {
+        border-left-width: 5px;
+        padding-left: 40px;
+        margin-bottom: 48px;
+    }
+
+    .activity-block h3 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .activity-block p {
+        font-size: 26px;
+    }
+
+    .screenshot-grid {
+        gap: 32px;
+        margin-top: 40px;
+    }
+
+    .screenshot-item {
+        min-width: 400px;
+    }
+
+    .screenshot-item img {
+        border-radius: 14px;
+        border-width: 2px;
+    }
+
+    .screenshot-item figcaption {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
+        gap: 36px;
+        margin-top: 16px;
+    }
+
+    .skill-card {
+        padding: 40px 44px;
+        border-radius: 18px;
+        border-width: 2px;
+    }
+
+    .skill-card .skill-icon {
+        font-size: 52px;
+        margin-bottom: 16px;
+    }
+
+    .skill-card h4 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .skill-card p {
+        font-size: 24px;
+        line-height: 1.6;
+    }
+
+    .skill-label {
+        font-size: 18px;
+        padding: 4px 14px;
+        border-radius: 16px;
+    }
+
+    .softskills {
+        gap: 18px;
+        margin-top: 24px;
+    }
+
+    .softskill-tag {
+        font-size: 26px;
+        padding: 12px 30px;
+        border-radius: 36px;
+        border-width: 2px;
+    }
+
+    .periodi-timeline {
+        gap: 18px;
+        margin-bottom: 48px;
+    }
+
+    .periodo-row {
+        font-size: 26px;
+        padding: 26px 36px;
+        border-radius: 16px;
+        border-width: 2px;
+        gap: 24px;
+    }
+
+    .periodo-row strong {
+        min-width: 130px;
+    }
+
+    .periodo-dot {
+        width: 16px;
+        height: 16px;
+    }
+
+    button {
+        font-size: 28px;
+        padding: 0.7em 1.8em;
+        border-radius: 14px;
+    }
+
+    footer {
+        font-size: 24px;
+        margin-top: 80px;
+        padding-bottom: 40px;
     }
 }
 
