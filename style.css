@@ -82,7 +82,14 @@ nav .nav-footer {
     margin-left: 240px;
     padding: 48px 48px 48px 48px;
     flex-grow: 1;
-    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principale > * {
+    width: 100%;
+    max-width: 920px;
 }
 
 /* ── HERO ─────────────────────────────────────────────── */
@@ -462,6 +469,10 @@ a:hover {
         margin-left: 0;
         padding: 24px 20px;
     }
+
+    .principale > * {
+        max-width: 100%;
+    }
     .skills-grid {
         grid-template-columns: 1fr;
     }
@@ -496,8 +507,11 @@ a:hover {
 
     .principale {
         margin-left: 300px;
-        max-width: 1380px;
         padding: 64px 72px;
+    }
+
+    .principale > * {
+        max-width: 1280px;
     }
 
     .introduzione {
@@ -642,8 +656,11 @@ a:hover {
 
     .principale {
         margin-left: 520px;
-        max-width: 2800px;
         padding: 120px 140px;
+    }
+
+    .principale > * {
+        max-width: 2600px;
     }
 
     .introduzione {
